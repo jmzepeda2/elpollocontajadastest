@@ -1,0 +1,243 @@
+@media (max-width:699px){
+    .header{
+        width: 99.5%;
+        border: solid blue 2px;
+        position: relative;
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: flex-end;
+    }
+    .top{
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    .menu{
+        width: 63%;
+        z-index: 2;
+        position: absolute;
+    }
+    .holder{
+        text-align: center;
+    }
+    .links{
+        font-size: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: orange;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation{
+        position: relative;
+        margin: 10px auto 0;
+        width: 99.5%;
+        height: 2rem;
+        border-radius: 8px;
+        font-size: 0;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+        text-align: center;
+    }
+    .navigation a{
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: orange;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navigation .animation{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        background: yellow;
+        border-radius: 8px;
+        transition: all .5s ease 0s;
+    }
+    .navigation a:nth-child(1){
+        width: 19%;
+    }
+    .navigation .start-home, a:nth-child(1):hover~.animation{
+        width: 19%;
+        left: 0;
+    }
+    .navigation a:nth-child(2){
+        width: 23%;
+    }
+    .navigation a:nth-child(2):hover~.animation{
+        width: 19%;
+        left: 20%;
+    }
+    .navigation a:nth-child(3){
+        width: 19%;
+    }
+    .navigation a:nth-child(3):hover~.animation{
+        width: 19%;
+        left: 40%;
+    }
+    .navigation a:nth-child(4){
+        width: 19%;
+    }
+    .navigation a:nth-child(4):hover~.animation{
+        width: 19%;
+        left: 60%;
+    }
+    .navigation a:nth-child(5){
+        width: 19%;
+    }
+    .navigation a:nth-child(5):hover~.animation{
+        width: 19%;
+        left: 80%;
+    }
+    .container{
+        display: flex;
+        padding-top: 3rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .image{
+        border: solid black 2px;
+        width: 16vh;
+        height: 14vh;
+    }
+    .containertwo{
+        display: flex;
+        justify-content: center;
+    }
+    .menus{
+        height: 25vh;
+    }
+    .menucontainer{
+        display: flex;
+        justify-content: center;
+    }
+    .menupicture{
+        width: 98vw;
+    }
+}
+
+@media (min-width:700px){
+    .header{
+        width: 99.5%;
+        height: 61.5vh;
+        border: solid blue 2px;
+        position: relative;
+        flex-direction: column-reverse;
+        display: inline-flex;
+        align-items: flex-end;
+    }
+    .top{
+        width: 100%;
+        position: absolute;
+        display: inline-block;
+    }
+    .menu{
+        width: 63%;
+        z-index: 3;
+    }
+    .links-container{
+        background-color: rgba(245, 245, 220, 0.658);
+    }
+    .holder{
+        text-align: center;
+    }
+    .links{
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: orange;
+        text-align: center;
+        text-decoration: none;
+    }
+    .links:hover{
+        cursor:pointer;
+    }
+    .navigation{
+        position: relative;
+        margin: 10px auto 0;
+        width: 99.5%;
+        height: 3rem;
+        border-radius: 8px;
+        font-size: 0;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+        text-align: center;
+    }
+    .navigation a{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: orange;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navigation .animation{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        background: yellow;
+        border-radius: 8px;
+        transition: all .5s ease 0s;
+    }
+    .navigation a:nth-child(1){
+        width: 20%;
+    }
+ 
+    .navigation a:nth-child(2){
+        width: 20%;
+    }
+
+    .navigation a:nth-child(3){
+        width: 20%;
+    }
+
+    .navigation a:nth-child(4){
+        width: 20%;
+    }
+
+    .navigation a:nth-child(5){
+        width: 20%;
+    }
+    .container{
+
+    }
+    .image{
+        border: solid black 2px;
+        width: 16vw;
+        height: 14vh;
+    }
+    .containertwo{
+        display: flex;
+        justify-content: center;
+    }
+    .menus{
+        height: 25vh;
+    }
+    .menucontainer{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+    .menupicture{
+        width: auto;
+        height: 100%;
+    }
+    .contact{
+        font-size: 35px;
+        font-family: 'Montserrat' sans-serif;
+        text-align: center;
+    }
+}
